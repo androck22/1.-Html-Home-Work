@@ -4,33 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Business Card</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
-    <header>
-        <h1>Andrew Konoplyanik</h1>
-    </header>
-    <main>
-        <img src="Photo.jpg" alt="Photo" width="300"/>
-        <h2>About me</h2>
-        <p>I live in Minsk. Higher education in computer music. Now I study web development.</p>
-        <h2>Technologies</h2>
-        <ul>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>JS</li>
-        </ul>
-        <h2>Contacts</h2>
-        <p>Phone: +37529...</p>
-        <p><a href="https://www.instagram.com/andrew.konoplyanik/" target="_blank">Instagram</a></p>
-        <h2>How I became a developer</h2>
-        <ul>
-            <li><strong>4th december</strong> - Started to learn HTML</li>
-            <li><strong>11th december</strong> - Site business card</li>
-        </ul>
-    </main>
-    <footer>
-        <!--footer information--> 
-    </footer>
+<body class="body">
+    <div class="wrap">
+        <header>
+            
+        </header>
+        <div class="nav">
+            <a href="#about">About me</a>
+            <a href="#technologies">Technologies</a>
+            <a href="#contacts">Contacts</a>
+        </div>
+        <main class="main">
+            <h1 class="header el-color">Andrew Konoplyanik. Developer.</h1>
+            <img class="photo" src="Photo.jpg" alt="Photo" width="300"/>
 
+            <div class="anchor-space" id="about"></div>
+            <h2 class="el-color">About me</h2>
+            <p>I live in Minsk. Higher education in computer music. Now I study web development.</p>
+
+            <div class="anchor-space" id="technologies"></div>
+            <h2 class="el-color">Technologies</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JS</li>
+            </ul>
+
+            <div class="anchor-space" id="contacts"></div>
+            <h2 class="el-color">Contacts</h2>
+            <p>Phone: <a class="link">+37529...</a></p>
+            <p>Social networks: <a class="link" href="https://www.instagram.com/andrew.konoplyanik/" target="_blank">Instagram</a></p>
+            <h2 class="el-color">How I became a developer</h2>
+            <ul>
+                <li><strong>4th december</strong> - Started to learn HTML</li>
+                <li><strong>11th december</strong> - Site business card</li>
+            </ul>
+        </main>
+        <footer class="footer el-color">
+            <a href="https://skillfactory.ru/" class="link">Skillfactory.ru</a>
+            " • "
+            <span>2024</span>
+        </footer>
+    </div>
 </body>
 </html>
